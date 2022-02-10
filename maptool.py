@@ -1,7 +1,7 @@
 import streamlit as st
 
 from PIL import Image
-img = Image.open("LabsinNigeria.png")
+img = Image.open("laboratory.png")
  
 st.image(img, width=700)
 
