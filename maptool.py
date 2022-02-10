@@ -24,4 +24,4 @@ accreditation_date = st.date_input('MLSCN Accreditation Date')
 equipment_list = st.text("Enter your Equipments in lab:\n")
 
 if(st.button('Submit')):
-    result = equipment_list.title()"labmap" 
+    result = equipment_list.title("labmap") 
