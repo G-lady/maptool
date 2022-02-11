@@ -21,7 +21,7 @@ number_of_staff = st.text_input("Number of Staff in lab")
 
 accreditation_date = st.date_input('MLSCN Accreditation Date')
 
-equipment_list = st.text("Enter your Equipments in lab:\n")
+equipment_list = st.text_input("Enter your Equipments in lab:\n")
 
 if(st.button('Submit')):
-    result = equipment_list.title("labmap") 
+    result = ("lab_name, lab_location")
